@@ -52,6 +52,11 @@ main>.container {
 
 }
 .css3icon{
-    color: rgb(11, green, blue);
-
+    color: blue;
+}
+.checklist li i{
+    color: var(--secondary-color);
+}
+.footer-text{
+    font-size:
 }
