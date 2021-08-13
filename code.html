@@ -50,7 +50,23 @@
 <!-- Main Section -->
     <main class="flex-shrink-0">
        <div class="container">
-           
+           <h2 class="border-1 border-bottom border-dark">The Code for app name</h2>
+           <div class="row row-cols-1 row-cols-md-2">
+                <div class="col-lg-8">
+                    <pre class="line-numbers"><code class="language-javascript">
+                            function sampleHelloWorld(){
+                                //get values from the page
+                                    alert("hello world");                                     
+                                                         
+                            }
+                        </code></pre>
+                </div>
+                <div class="col-lg-4">
+                    <p>This is a sample discription of the code</p>
+                    <h5>Hello World</h5>
+                    <p>Hello World is a function that displays an alert with a message of "hello world"</p>
+                </div>
+           </div>
        </div>
     </main>
 <!-- Footer Section     -->
@@ -80,6 +96,14 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
     </script>
     <script src="js/prism.js"></script>
+    <script>
+        Prism.plugins.NormalizeWhitespace.setDefaults({
+            'remove-trailing': true,
+            'remove-indent': true,
+            'left-trim': true,
+            'right-trim': true
+            })
+    </script>
     
 </body>
 
